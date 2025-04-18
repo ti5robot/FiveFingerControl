@@ -1,0 +1,2 @@
+Invoking command in '/home/ti5robot/hand_control_ws/build/hand_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ti5robot/hand_control_ws/build/hand_control -- -j6 -l6
+Invoked command in '/home/ti5robot/hand_control_ws/build/hand_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ti5robot/hand_control_ws/build/hand_control -- -j6 -l6

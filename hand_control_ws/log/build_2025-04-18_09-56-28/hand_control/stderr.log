@@ -1,0 +1,11 @@
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:[m[K In member function ‘[01m[Kbool RS485Controller::tempature()[m[K’:
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:115:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  115 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:[m[K In member function ‘[01m[Kbool RS485Controller::postion()[m[K’:
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:147:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  147 |                 [01;31m[Kreturn[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hand_control_node2.dir/build.make:76：CMakeFiles/hand_control_node2.dir/src/hand_control_node2.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/hand_control_node2.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

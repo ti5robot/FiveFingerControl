@@ -1,0 +1,7 @@
+[01m[K/home/ti5robot/hand_angle_ws/src/hand_angle/src/hand_angle_node.cpp:71:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+   71 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K  // 用于发布字符串消息
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hand_angle_node.dir/build.make:76：CMakeFiles/hand_angle_node.dir/src/hand_angle_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/hand_angle_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

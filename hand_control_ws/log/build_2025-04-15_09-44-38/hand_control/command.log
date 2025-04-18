@@ -1,0 +1,2 @@
+Invoking command in '/home/ti5robot/hand_control_ws/build/hand_control': /usr/bin/cmake /home/ti5robot/hand_control_ws/src/hand_control -DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_control_ws/install/hand_control
+Invoked command in '/home/ti5robot/hand_control_ws/build/hand_control' returned '1': /usr/bin/cmake /home/ti5robot/hand_control_ws/src/hand_control -DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_control_ws/install/hand_control

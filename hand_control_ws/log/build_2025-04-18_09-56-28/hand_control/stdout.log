@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hand_control_node2.dir/src/hand_control_node2.cpp.o[0m
+[ 83%] Built target keyboard_publisher
+[ 83%] Built target hand_control_node

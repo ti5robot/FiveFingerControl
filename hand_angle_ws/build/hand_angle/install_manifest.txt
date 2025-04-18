@@ -1,0 +1,16 @@
+/home/ti5robot/hand_angle_ws/install/hand_angle/lib/hand_angle/hand_angle_node
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/ament_index/resource_index/package_run_dependencies/hand_angle
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/ament_index/resource_index/parent_prefix_path/hand_angle
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/environment/ament_prefix_path.sh
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/environment/ament_prefix_path.dsv
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/environment/path.sh
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/environment/path.dsv
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/local_setup.bash
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/local_setup.sh
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/local_setup.zsh
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/local_setup.dsv
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/package.dsv
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/ament_index/resource_index/packages/hand_angle
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/cmake/hand_angleConfig.cmake
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/cmake/hand_angleConfig-version.cmake
+/home/ti5robot/hand_angle_ws/install/hand_angle/share/hand_angle/package.xml

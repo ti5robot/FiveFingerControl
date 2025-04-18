@@ -1,0 +1,2 @@
+Invoking command in '/home/ti5robot/hand_angle_ws/build/hand_angle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ti5robot/hand_angle_ws/src/hand_angle -DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_angle_ws/install/hand_angle
+Invoked command in '/home/ti5robot/hand_angle_ws/build/hand_angle' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ti5robot/hand_angle_ws/src/hand_angle -DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_angle_ws/install/hand_angle

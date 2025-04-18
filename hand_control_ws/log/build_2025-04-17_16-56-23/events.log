@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000887] (hand_control) JobQueued: {'identifier': 'hand_control', 'dependencies': OrderedDict()}
+[0.001180] (hand_control) JobStarted: {'identifier': 'hand_control'}
+[0.016768] (hand_control) JobProgress: {'identifier': 'hand_control', 'progress': 'cmake'}
+[0.019548] (hand_control) JobProgress: {'identifier': 'hand_control', 'progress': 'build'}
+[0.019784] (hand_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ti5robot/hand_control_ws/build/hand_control', '--', '-j6', '-l6'], 'cwd': '/home/ti5robot/hand_control_ws/build/hand_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ti5robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ti5robot'), ('OLDPWD', '/home/ti5robot/hand_control_ws/src/hand_control/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ti5robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ti5robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/ti5robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1576,unix/ubuntu:/tmp/.ICE-unix/1576'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb2f9530_8194_425a_ad66_6f27b9318e56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install/hand_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ti5robot/hand_control_ws/build/hand_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install/hand_control:/opt/ros/humble')]), 'shell': False}
+[0.092324] (hand_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099159] (-) TimerEvent: {}
+[0.199748] (-) TimerEvent: {}
+[0.300385] (-) TimerEvent: {}
+[0.367804] (hand_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.396198] (hand_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400471] (-) TimerEvent: {}
+[0.473198] (hand_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.479208] (hand_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.493795] (hand_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.500556] (-) TimerEvent: {}
+[0.515325] (hand_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.541851] (hand_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600709] (-) TimerEvent: {}
+[0.609964] (hand_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.613279] (hand_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700882] (-) TimerEvent: {}
+[0.801545] (-) TimerEvent: {}
+[0.806091] (hand_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901718] (-) TimerEvent: {}
+[1.002361] (-) TimerEvent: {}
+[1.066954] (hand_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.102525] (-) TimerEvent: {}
+[1.120480] (hand_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.137950] (hand_control) StdoutLine: {'line': b'-- Build files have been written to: /home/ti5robot/hand_control_ws/build/hand_control\n'}
+[1.198703] (hand_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hand_control_node\x1b[0m\n'}
+[1.199371] (hand_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target keyboard_publisher\x1b[0m\n'}
+[1.202642] (-) TimerEvent: {}
+[1.216784] (hand_control) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/hand_control_node2.dir/src/hand_control_node2.cpp.o\x1b[0m\n'}
+[1.240552] (hand_control) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hand_control_node.dir/src/hand_control_node.cpp.o\x1b[0m\n'}
+[1.243938] (hand_control) StdoutLine: {'line': b'[ 66%] Built target keyboard_publisher\n'}
+[1.302838] (-) TimerEvent: {}
+[1.403512] (-) TimerEvent: {}
+[1.504545] (-) TimerEvent: {}
+[1.605221] (-) TimerEvent: {}
+[1.705929] (-) TimerEvent: {}
+[1.806621] (-) TimerEvent: {}
+[1.907337] (-) TimerEvent: {}
+[2.008121] (-) TimerEvent: {}
+[2.108864] (-) TimerEvent: {}
+[2.209571] (-) TimerEvent: {}
+[2.310286] (-) TimerEvent: {}
+[2.410998] (-) TimerEvent: {}
+[2.511742] (-) TimerEvent: {}
+[2.612495] (-) TimerEvent: {}
+[2.713231] (-) TimerEvent: {}
+[2.813951] (-) TimerEvent: {}
+[2.914670] (-) TimerEvent: {}
+[3.015394] (-) TimerEvent: {}
+[3.116185] (-) TimerEvent: {}
+[3.216913] (-) TimerEvent: {}
+[3.317634] (-) TimerEvent: {}
+[3.418377] (-) TimerEvent: {}
+[3.519103] (-) TimerEvent: {}
+[3.619892] (-) TimerEvent: {}
+[3.720616] (-) TimerEvent: {}
+[3.821356] (-) TimerEvent: {}
+[3.922070] (-) TimerEvent: {}
+[4.022777] (-) TimerEvent: {}
+[4.123496] (-) TimerEvent: {}
+[4.224255] (-) TimerEvent: {}
+[4.324969] (-) TimerEvent: {}
+[4.425709] (-) TimerEvent: {}
+[4.526430] (-) TimerEvent: {}
+[4.627174] (-) TimerEvent: {}
+[4.727940] (-) TimerEvent: {}
+[4.828653] (-) TimerEvent: {}
+[4.929413] (-) TimerEvent: {}
+[5.030109] (-) TimerEvent: {}
+[5.130831] (-) TimerEvent: {}
+[5.231542] (-) TimerEvent: {}
+[5.332273] (-) TimerEvent: {}
+[5.432974] (-) TimerEvent: {}
+[5.533734] (-) TimerEvent: {}
+[5.634534] (-) TimerEvent: {}
+[5.735299] (-) TimerEvent: {}
+[5.836115] (-) TimerEvent: {}
+[5.936909] (-) TimerEvent: {}
+[6.037651] (-) TimerEvent: {}
+[6.138393] (-) TimerEvent: {}
+[6.239102] (-) TimerEvent: {}
+[6.339916] (-) TimerEvent: {}
+[6.440655] (-) TimerEvent: {}
+[6.541368] (-) TimerEvent: {}
+[6.607036] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RS485Controller::tempature()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.608024] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:103:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.608246] (hand_control) StderrLine: {'line': b'  103 |             data[\x1b[01;31m\x1b[Ki\x1b[m\x1b[K], 0x01,    // id\n'}
+[6.608405] (hand_control) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.608551] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:110:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K{255, 255, 209, 1, <expression error>, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255}\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.608704] (hand_control) StderrLine: {'line': b'  110 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[6.608839] (hand_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.608970] (hand_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[6.609095] (hand_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\n'}
+[6.609764] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:115:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with a value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.609958] (hand_control) StderrLine: {'line': b'  115 |             return \x1b[01;31m\x1b[Kfalse\x1b[m\x1b[K;\n'}
+[6.610100] (hand_control) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.641520] (-) TimerEvent: {}
+[6.742238] (-) TimerEvent: {}
+[6.842989] (-) TimerEvent: {}
+[6.943706] (-) TimerEvent: {}
+[7.044518] (-) TimerEvent: {}
+[7.145233] (-) TimerEvent: {}
+[7.245996] (-) TimerEvent: {}
+[7.346725] (-) TimerEvent: {}
+[7.447512] (-) TimerEvent: {}
+[7.548287] (-) TimerEvent: {}
+[7.649006] (-) TimerEvent: {}
+[7.749729] (-) TimerEvent: {}
+[7.850434] (-) TimerEvent: {}
+[7.951155] (-) TimerEvent: {}
+[8.051902] (-) TimerEvent: {}
+[8.152590] (-) TimerEvent: {}
+[8.253294] (-) TimerEvent: {}
+[8.354022] (-) TimerEvent: {}
+[8.454834] (-) TimerEvent: {}
+[8.555560] (-) TimerEvent: {}
+[8.656330] (-) TimerEvent: {}
+[8.757047] (-) TimerEvent: {}
+[8.857782] (-) TimerEvent: {}
+[8.958504] (-) TimerEvent: {}
+[9.059241] (-) TimerEvent: {}
+[9.159964] (-) TimerEvent: {}
+[9.260702] (-) TimerEvent: {}
+[9.361405] (-) TimerEvent: {}
+[9.462137] (-) TimerEvent: {}
+[9.562848] (-) TimerEvent: {}
+[9.663577] (-) TimerEvent: {}
+[9.764345] (-) TimerEvent: {}
+[9.865083] (-) TimerEvent: {}
+[9.965804] (-) TimerEvent: {}
+[10.066534] (-) TimerEvent: {}
+[10.167263] (-) TimerEvent: {}
+[10.267997] (-) TimerEvent: {}
+[10.368731] (-) TimerEvent: {}
+[10.469464] (-) TimerEvent: {}
+[10.570188] (-) TimerEvent: {}
+[10.670916] (-) TimerEvent: {}
+[10.771637] (-) TimerEvent: {}
+[10.872407] (-) TimerEvent: {}
+[10.973123] (-) TimerEvent: {}
+[11.073851] (-) TimerEvent: {}
+[11.174566] (-) TimerEvent: {}
+[11.275281] (-) TimerEvent: {}
+[11.375986] (-) TimerEvent: {}
+[11.476714] (-) TimerEvent: {}
+[11.577445] (-) TimerEvent: {}
+[11.678144] (-) TimerEvent: {}
+[11.778858] (-) TimerEvent: {}
+[11.879560] (-) TimerEvent: {}
+[11.980311] (-) TimerEvent: {}
+[12.081034] (-) TimerEvent: {}
+[12.181779] (-) TimerEvent: {}
+[12.282526] (-) TimerEvent: {}
+[12.383264] (-) TimerEvent: {}
+[12.484018] (-) TimerEvent: {}
+[12.546089] (hand_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hand_control_node2.dir/build.make:76\xef\xbc\x9aCMakeFiles/hand_control_node2.dir/src/hand_control_node2.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[12.548229] (hand_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141\xef\xbc\x9aCMakeFiles/hand_control_node2.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[12.548506] (hand_control) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[12.584137] (-) TimerEvent: {}
+[12.684793] (-) TimerEvent: {}
+[12.785533] (-) TimerEvent: {}
+[12.886212] (-) TimerEvent: {}
+[12.986868] (-) TimerEvent: {}
+[13.087604] (-) TimerEvent: {}
+[13.188360] (-) TimerEvent: {}
+[13.289027] (-) TimerEvent: {}
+[13.389692] (-) TimerEvent: {}
+[13.490352] (-) TimerEvent: {}
+[13.591015] (-) TimerEvent: {}
+[13.691673] (-) TimerEvent: {}
+[13.792359] (-) TimerEvent: {}
+[13.893037] (-) TimerEvent: {}
+[13.993724] (-) TimerEvent: {}
+[14.094422] (-) TimerEvent: {}
+[14.195105] (-) TimerEvent: {}
+[14.295760] (-) TimerEvent: {}
+[14.396445] (-) TimerEvent: {}
+[14.497106] (-) TimerEvent: {}
+[14.597779] (-) TimerEvent: {}
+[14.698437] (-) TimerEvent: {}
+[14.799094] (-) TimerEvent: {}
+[14.899760] (-) TimerEvent: {}
+[15.000484] (-) TimerEvent: {}
+[15.101134] (-) TimerEvent: {}
+[15.201774] (-) TimerEvent: {}
+[15.302428] (-) TimerEvent: {}
+[15.403070] (-) TimerEvent: {}
+[15.503729] (-) TimerEvent: {}
+[15.604419] (-) TimerEvent: {}
+[15.705062] (-) TimerEvent: {}
+[15.805713] (-) TimerEvent: {}
+[15.906367] (-) TimerEvent: {}
+[16.007013] (-) TimerEvent: {}
+[16.107653] (-) TimerEvent: {}
+[16.208319] (-) TimerEvent: {}
+[16.308947] (-) TimerEvent: {}
+[16.409573] (-) TimerEvent: {}
+[16.510192] (-) TimerEvent: {}
+[16.610821] (-) TimerEvent: {}
+[16.711424] (-) TimerEvent: {}
+[16.812061] (-) TimerEvent: {}
+[16.912692] (-) TimerEvent: {}
+[17.013317] (-) TimerEvent: {}
+[17.113962] (-) TimerEvent: {}
+[17.214587] (-) TimerEvent: {}
+[17.315223] (-) TimerEvent: {}
+[17.415904] (-) TimerEvent: {}
+[17.516552] (-) TimerEvent: {}
+[17.617204] (-) TimerEvent: {}
+[17.717810] (-) TimerEvent: {}
+[17.818418] (-) TimerEvent: {}
+[17.919027] (-) TimerEvent: {}
+[18.019649] (-) TimerEvent: {}
+[18.120484] (-) TimerEvent: {}
+[18.221146] (-) TimerEvent: {}
+[18.321791] (-) TimerEvent: {}
+[18.422272] (-) TimerEvent: {}
+[18.522696] (-) TimerEvent: {}
+[18.623157] (-) TimerEvent: {}
+[18.723617] (-) TimerEvent: {}
+[18.824042] (-) TimerEvent: {}
+[18.924485] (-) TimerEvent: {}
+[19.024993] (-) TimerEvent: {}
+[19.125396] (-) TimerEvent: {}
+[19.225822] (-) TimerEvent: {}
+[19.326245] (-) TimerEvent: {}
+[19.426645] (-) TimerEvent: {}
+[19.527077] (-) TimerEvent: {}
+[19.627582] (-) TimerEvent: {}
+[19.728163] (-) TimerEvent: {}
+[19.812595] (hand_control) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable hand_control_node\x1b[0m\n'}
+[19.828337] (-) TimerEvent: {}
+[19.929054] (-) TimerEvent: {}
+[20.029808] (-) TimerEvent: {}
+[20.130553] (-) TimerEvent: {}
+[20.231308] (-) TimerEvent: {}
+[20.332089] (-) TimerEvent: {}
+[20.432836] (-) TimerEvent: {}
+[20.533589] (-) TimerEvent: {}
+[20.634251] (-) TimerEvent: {}
+[20.657663] (hand_control) StdoutLine: {'line': b'[ 83%] Built target hand_control_node\n'}
+[20.661125] (hand_control) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[20.689786] (hand_control) CommandEnded: {'returncode': 2}
+[20.734575] (-) TimerEvent: {}
+[20.759311] (hand_control) JobEnded: {'identifier': 'hand_control', 'rc': 2}
+[20.772302] (-) EventReactorShutdown: {}

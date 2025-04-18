@@ -1,0 +1,145 @@
+[0.024s] Invoking command in '/home/ti5robot/hand_control_ws/build/hand_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ti5robot/hand_control_ws/src/hand_control -DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_control_ws/install/hand_control
+[0.076s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.350s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.381s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.460s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.465s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.478s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.496s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.583s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.586s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.028s] -- Configuring done
+[1.064s] -- Generating done
+[1.077s] -- Build files have been written to: /home/ti5robot/hand_control_ws/build/hand_control
+[1.104s] Invoked command in '/home/ti5robot/hand_control_ws/build/hand_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ti5robot/hand_control_ws/src/hand_control -DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_control_ws/install/hand_control
+[1.110s] Invoking command in '/home/ti5robot/hand_control_ws/build/hand_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ti5robot/hand_control_ws/build/hand_control -- -j6 -l6
+[1.198s] [35m[1mConsolidate compiler generated dependencies of target keyboard_publisher[0m
+[1.199s] [35m[1mConsolidate compiler generated dependencies of target hand_control_node[0m
+[1.247s] [ 50%] Built target keyboard_publisher
+[1.250s] [ 75%] [32mBuilding CXX object CMakeFiles/hand_control_node.dir/src/hand_control_node.cpp.o[0m
+[6.667s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:67:78:[m[K [01;31m[Kerror: [m[K‘[01m[KB115200[m[K’ was not declared in this scope
+[6.668s]    67 | oller(const std::string &port = "/dev/ttyUSB0", int baudrate = [01;31m[KB115200[m[K)
+[6.668s]       |                                                                [01;31m[K^~~~~~~[m[K
+[6.668s] 
+[6.681s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:[m[K In member function ‘[01m[Kbool RS485Controller::setup_serial(const string&, int)[m[K’:
+[6.681s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:42:[m[K [01;31m[Kerror: [m[K‘[01m[KO_RDWR[m[K’ was not declared in this scope
+[6.681s]    16 |         serial_port = open(port.c_str(), [01;31m[KO_RDWR[m[K | O_NOCTTY);
+[6.681s]       |                                          [01;31m[K^~~~~~[m[K
+[6.693s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:51:[m[K [01;31m[Kerror: [m[K‘[01m[KO_NOCTTY[m[K’ was not declared in this scope; did you mean ‘[01m[KENOTTY[m[K’?
+[6.693s]    16 |         serial_port = open(port.c_str(), O_RDWR | [01;31m[KO_NOCTTY[m[K);
+[6.694s]       |                                                   [01;31m[K^~~~~~~~[m[K
+[6.694s]       |                                                   [32m[KENOTTY[m[K
+[6.702s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kopen[m[K’ was not declared in this scope; did you mean ‘[01m[Kpopen[m[K’?
+[6.703s]    16 |         serial_port = [01;31m[Kopen[m[K(port.c_str(), O_RDWR | O_NOCTTY);
+[6.703s]       |                       [01;31m[K^~~~[m[K
+[6.703s]       |                       [32m[Kpopen[m[K
+[6.704s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:23:24:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KRS485Controller::setup_serial(const string&, int)::termios tty[m[K’ has incomplete type and cannot be defined
+[6.705s]    23 |         struct termios [01;31m[Ktty[m[K;
+[6.705s]       |                        [01;31m[K^~~[m[K
+[6.717s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcgetattr[m[K’ was not declared in this scope
+[6.717s]    26 |         if ([01;31m[Ktcgetattr[m[K(serial_port, &tty) != 0)
+[6.717s]       |             [01;31m[K^~~~~~~~~[m[K
+[6.731s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcfsetospeed[m[K’ was not declared in this scope
+[6.731s]    33 |         [01;31m[Kcfsetospeed[m[K(&tty, baudrate);
+[6.732s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.745s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcfsetispeed[m[K’ was not declared in this scope
+[6.745s]    34 |         [01;31m[Kcfsetispeed[m[K(&tty, baudrate);
+[6.745s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.755s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:37:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPARENB[m[K’ was not declared in this scope
+[6.756s]    37 |         tty.c_cflag &= ~[01;31m[KPARENB[m[K;
+[6.756s]       |                         [01;31m[K^~~~~~[m[K
+[6.767s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:38:25:[m[K [01;31m[Kerror: [m[K‘[01m[KCSTOPB[m[K’ was not declared in this scope
+[6.767s]    38 |         tty.c_cflag &= ~[01;31m[KCSTOPB[m[K;
+[6.767s]       |                         [01;31m[K^~~~~~[m[K
+[6.777s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:39:25:[m[K [01;31m[Kerror: [m[K‘[01m[KCSIZE[m[K’ was not declared in this scope
+[6.777s]    39 |         tty.c_cflag &= ~[01;31m[KCSIZE[m[K;
+[6.777s]       |                         [01;31m[K^~~~~[m[K
+[6.787s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:40:24:[m[K [01;31m[Kerror: [m[K‘[01m[KCS8[m[K’ was not declared in this scope
+[6.787s]    40 |         tty.c_cflag |= [01;31m[KCS8[m[K;
+[6.787s]       |                        [01;31m[K^~~[m[K
+[6.798s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[KCRTSCTS[m[K’ was not declared in this scope
+[6.798s]    41 |         tty.c_cflag &= ~[01;31m[KCRTSCTS[m[K;       // 禁用硬件流控
+[6.799s]       |                         [01;31m[K^~~~~~~[m[K
+[6.808s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:42:24:[m[K [01;31m[Kerror: [m[K‘[01m[KCREAD[m[K’ was not declared in this scope
+[6.809s]    42 |         tty.c_cflag |= [01;31m[KCREAD[m[K | CLOCAL; // 启用接收，忽略调制解调器控制线
+[6.809s]       |                        [01;31m[K^~~~~[m[K
+[6.819s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:42:32:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCAL[m[K’ was not declared in this scope; did you mean ‘[01m[KRCL_LOCAL[m[K’?
+[6.819s]    42 |         tty.c_cflag |= CREAD | [01;31m[KCLOCAL[m[K; // 启用接收，忽略调制解调器控制线
+[6.820s]       |                                [01;31m[K^~~~~~[m[K
+[6.820s]       |                                [32m[KRCL_LOCAL[m[K
+[6.830s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:26:[m[K [01;31m[Kerror: [m[K‘[01m[KICANON[m[K’ was not declared in this scope
+[6.830s]    45 |         tty.c_lflag &= ~([01;31m[KICANON[m[K | ECHO | ECHOE | ISIG);
+[6.830s]       |                          [01;31m[K^~~~~~[m[K
+[6.840s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:35:[m[K [01;31m[Kerror: [m[K‘[01m[KECHO[m[K’ was not declared in this scope
+[6.840s]    45 |         tty.c_lflag &= ~(ICANON | [01;31m[KECHO[m[K | ECHOE | ISIG);
+[6.841s]       |                                   [01;31m[K^~~~[m[K
+[6.850s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:42:[m[K [01;31m[Kerror: [m[K‘[01m[KECHOE[m[K’ was not declared in this scope
+[6.851s]    45 |         tty.c_lflag &= ~(ICANON | ECHO | [01;31m[KECHOE[m[K | ISIG);
+[6.851s]       |                                          [01;31m[K^~~~~[m[K
+[6.860s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:50:[m[K [01;31m[Kerror: [m[K‘[01m[KISIG[m[K’ was not declared in this scope; did you mean ‘[01m[KNSIG[m[K’?
+[6.860s]    45 |         tty.c_lflag &= ~(ICANON | ECHO | ECHOE | [01;31m[KISIG[m[K);
+[6.861s]       |                                                  [01;31m[K^~~~[m[K
+[6.861s]       |                                                  [32m[KNSIG[m[K
+[6.870s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:26:[m[K [01;31m[Kerror: [m[K‘[01m[KIXON[m[K’ was not declared in this scope
+[6.871s]    46 |         tty.c_iflag &= ~([01;31m[KIXON[m[K | IXOFF | IXANY); // 禁用软件流控
+[6.871s]       |                          [01;31m[K^~~~[m[K
+[6.881s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:33:[m[K [01;31m[Kerror: [m[K‘[01m[KIXOFF[m[K’ was not declared in this scope
+[6.881s]    46 |         tty.c_iflag &= ~(IXON | [01;31m[KIXOFF[m[K | IXANY); // 禁用软件流控
+[6.881s]       |                                 [01;31m[K^~~~~[m[K
+[6.892s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:41:[m[K [01;31m[Kerror: [m[K‘[01m[KIXANY[m[K’ was not declared in this scope
+[6.892s]    46 |         tty.c_iflag &= ~(IXON | IXOFF | [01;31m[KIXANY[m[K); // 禁用软件流控
+[6.892s]       |                                         [01;31m[K^~~~~[m[K
+[6.903s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:26:[m[K [01;31m[Kerror: [m[K‘[01m[KIGNBRK[m[K’ was not declared in this scope
+[6.903s]    47 |         tty.c_iflag &= ~([01;31m[KIGNBRK[m[K | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL);
+[6.903s]       |                          [01;31m[K^~~~~~[m[K
+[6.914s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:35:[m[K [01;31m[Kerror: [m[K‘[01m[KBRKINT[m[K’ was not declared in this scope
+[6.914s]    47 |         tty.c_iflag &= ~(IGNBRK | [01;31m[KBRKINT[m[K | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL);
+[6.914s]       |                                   [01;31m[K^~~~~~[m[K
+[6.925s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:44:[m[K [01;31m[Kerror: [m[K‘[01m[KPARMRK[m[K’ was not declared in this scope
+[6.925s]    47 |         tty.c_iflag &= ~(IGNBRK | BRKINT | [01;31m[KPARMRK[m[K | ISTRIP | INLCR | IGNCR | ICRNL);
+[6.925s]       |                                            [01;31m[K^~~~~~[m[K
+[6.936s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:53:[m[K [01;31m[Kerror: [m[K‘[01m[KISTRIP[m[K’ was not declared in this scope; did you mean ‘[01m[KESTRPIPE[m[K’?
+[6.937s]    47 |         tty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | [01;31m[KISTRIP[m[K | INLCR | IGNCR | ICRNL);
+[6.937s]       |                                                     [01;31m[K^~~~~~[m[K
+[6.937s]       |                                                     [32m[KESTRPIPE[m[K
+[6.947s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:62:[m[K [01;31m[Kerror: [m[K‘[01m[KINLCR[m[K’ was not declared in this scope
+[6.947s]    47 |        tty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | [01;31m[KINLCR[m[K | IGNCR | ICRNL);
+[6.948s]       |                                                             [01;31m[K^~~~~[m[K
+[6.948s] 
+[6.958s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:70:[m[K [01;31m[Kerror: [m[K‘[01m[KIGNCR[m[K’ was not declared in this scope
+[6.958s]    47 | ty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | [01;31m[KIGNCR[m[K | ICRNL);
+[6.958s]       |                                                             [01;31m[K^~~~~[m[K
+[6.958s] 
+[6.968s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:78:[m[K [01;31m[Kerror: [m[K‘[01m[KICRNL[m[K’ was not declared in this scope
+[6.968s]    47 | _iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | [01;31m[KICRNL[m[K);
+[6.969s]       |                                                                 [01;31m[K^~~~~[m[K
+[6.969s] 
+[6.979s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:50:25:[m[K [01;31m[Kerror: [m[K‘[01m[KOPOST[m[K’ was not declared in this scope
+[6.979s]    50 |         tty.c_oflag &= ~[01;31m[KOPOST[m[K;
+[6.979s]       |                         [01;31m[K^~~~~[m[K
+[6.989s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:51:25:[m[K [01;31m[Kerror: [m[K‘[01m[KONLCR[m[K’ was not declared in this scope
+[6.989s]    51 |         tty.c_oflag &= ~[01;31m[KONLCR[m[K;
+[6.990s]       |                         [01;31m[K^~~~~[m[K
+[6.999s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:54:18:[m[K [01;31m[Kerror: [m[K‘[01m[KVMIN[m[K’ was not declared in this scope
+[6.999s]    54 |         tty.c_cc[[01;31m[KVMIN[m[K] = 0;
+[6.999s]       |                  [01;31m[K^~~~[m[K
+[7.009s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:55:18:[m[K [01;31m[Kerror: [m[K‘[01m[KVTIME[m[K’ was not declared in this scope; did you mean ‘[01m[KETIME[m[K’?
+[7.009s]    55 |         tty.c_cc[[01;31m[KVTIME[m[K] = 10; // 1秒超时
+[7.010s]       |                  [01;31m[K^~~~~[m[K
+[7.010s]       |                  [32m[KETIME[m[K
+[7.020s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:57:36:[m[K [01;31m[Kerror: [m[K‘[01m[KTCSANOW[m[K’ was not declared in this scope
+[7.021s]    57 |         if (tcsetattr(serial_port, [01;31m[KTCSANOW[m[K, &tty) != 0)
+[7.021s]       |                                    [01;31m[K^~~~~~~[m[K
+[7.032s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcsetattr[m[K’ was not declared in this scope
+[7.032s]    57 |         if ([01;31m[Ktcsetattr[m[K(serial_port, TCSANOW, &tty) != 0)
+[7.032s]       |             [01;31m[K^~~~~~~~~[m[K
+[7.052s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:[m[K In member function ‘[01m[Kbool RS485Controller::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[7.052s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:117:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcdrain[m[K’ was not declared in this scope
+[7.052s]   117 |         [01;31m[Ktcdrain[m[K(serial_port);
+[7.052s]       |         [01;31m[K^~~~~~~[m[K
+[12.785s] gmake[2]: *** [CMakeFiles/hand_control_node.dir/build.make:76：CMakeFiles/hand_control_node.dir/src/hand_control_node.cpp.o] 错误 1
+[12.786s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/hand_control_node.dir/all] 错误 2
+[12.786s] gmake: *** [Makefile:146：all] 错误 2
+[12.794s] Invoked command in '/home/ti5robot/hand_control_ws/build/hand_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ti5robot/hand_control_ws/build/hand_control -- -j6 -l6

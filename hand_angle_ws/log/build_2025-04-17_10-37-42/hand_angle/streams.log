@@ -1,0 +1,21 @@
+[0.021s] Invoking command in '/home/ti5robot/hand_angle_ws/build/hand_angle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ti5robot/hand_angle_ws/src/hand_angle -DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_angle_ws/install/hand_angle
+[0.050s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.394s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.398s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.409s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.427s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.508s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.510s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.913s] -- Configuring done
+[0.922s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[0.922s]   Target "hand_angle_node" links to target "std_msgs::std_msgs" but the
+[0.922s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.922s]   IMPORTED target, or an ALIAS target is missing?
+[0.923s] 
+[0.923s] [0m
+[0.934s] -- Generating done
+[0.936s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.955s] Invoked command in '/home/ti5robot/hand_angle_ws/build/hand_angle' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ti5robot/hand_angle_ws/src/hand_angle -DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_angle_ws/install/hand_angle

@@ -1,0 +1,29 @@
+[0.027s] Invoking command in '/home/ti5robot/hand_control_ws/build/hand_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ti5robot/hand_control_ws/build/hand_control -- -j6 -l6
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target hand_control_node[0m
+[0.199s] [ 25%] [32mBuilding CXX object CMakeFiles/hand_control_node.dir/src/hand_control_node.cpp.o[0m
+[0.258s] [ 75%] Built target keyboard_publisher
+[18.541s] [100%] [32m[1mLinking CXX executable hand_control_node[0m
+[19.364s] [100%] Built target hand_control_node
+[19.403s] Invoked command in '/home/ti5robot/hand_control_ws/build/hand_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ti5robot/hand_control_ws/build/hand_control -- -j6 -l6
+[19.440s] Invoking command in '/home/ti5robot/hand_control_ws/build/hand_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ti5robot/hand_control_ws/build/hand_control
+[19.460s] -- Install configuration: ""
+[19.460s] -- Execute custom install script
+[19.461s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/lib/hand_control/hand_control_node
+[19.461s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/lib/hand_control/keyboard_publisher
+[19.462s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/ament_index/resource_index/package_run_dependencies/hand_control
+[19.462s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/ament_index/resource_index/parent_prefix_path/hand_control
+[19.463s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/environment/ament_prefix_path.sh
+[19.463s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/environment/ament_prefix_path.dsv
+[19.463s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/environment/path.sh
+[19.463s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/environment/path.dsv
+[19.464s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/local_setup.bash
+[19.464s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/local_setup.sh
+[19.465s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/local_setup.zsh
+[19.465s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/local_setup.dsv
+[19.465s] -- Symlinking: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/package.dsv
+[19.486s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/ament_index/resource_index/packages/hand_control
+[19.487s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.487s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/cmake/hand_controlConfig.cmake
+[19.487s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/cmake/hand_controlConfig-version.cmake
+[19.487s] -- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/package.xml
+[19.496s] Invoked command in '/home/ti5robot/hand_control_ws/build/hand_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ti5robot/hand_control_ws/build/hand_control

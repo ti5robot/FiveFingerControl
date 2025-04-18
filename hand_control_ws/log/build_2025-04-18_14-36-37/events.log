@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.001578] (hand_control) JobQueued: {'identifier': 'hand_control', 'dependencies': OrderedDict()}
+[0.002216] (hand_control) JobStarted: {'identifier': 'hand_control'}
+[0.017913] (hand_control) JobProgress: {'identifier': 'hand_control', 'progress': 'cmake'}
+[0.019452] (hand_control) JobProgress: {'identifier': 'hand_control', 'progress': 'build'}
+[0.030554] (hand_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ti5robot/hand_control_ws/build/hand_control', '--', '-j6', '-l6'], 'cwd': '/home/ti5robot/hand_control_ws/build/hand_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ti5robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ti5robot'), ('OLDPWD', '/home/ti5robot/hand_control_ws/src/hand_control/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ti5robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ti5robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/ti5robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1576,unix/ubuntu:/tmp/.ICE-unix/1576'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb2f9530_8194_425a_ad66_6f27b9318e56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install/hand_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ti5robot/hand_control_ws/build/hand_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install/hand_control:/opt/ros/humble')]), 'shell': False}
+[0.099396] (-) TimerEvent: {}
+[0.199427] (hand_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hand_control_node\x1b[0m\n'}
+[0.200003] (-) TimerEvent: {}
+[0.216692] (hand_control) StdoutLine: {'line': b'[ 33%] Built target keyboard_publisher\n'}
+[0.221747] (hand_control) StdoutLine: {'line': b'[ 66%] Built target hand_control_node2\n'}
+[0.251276] (hand_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/hand_control_node.dir/src/hand_control_node.cpp.o\x1b[0m\n'}
+[0.300209] (-) TimerEvent: {}
+[0.401012] (-) TimerEvent: {}
+[0.501803] (-) TimerEvent: {}
+[0.602595] (-) TimerEvent: {}
+[0.703290] (-) TimerEvent: {}
+[0.803999] (-) TimerEvent: {}
+[0.904694] (-) TimerEvent: {}
+[1.005408] (-) TimerEvent: {}
+[1.106107] (-) TimerEvent: {}
+[1.206834] (-) TimerEvent: {}
+[1.307541] (-) TimerEvent: {}
+[1.408287] (-) TimerEvent: {}
+[1.509061] (-) TimerEvent: {}
+[1.609814] (-) TimerEvent: {}
+[1.710527] (-) TimerEvent: {}
+[1.811301] (-) TimerEvent: {}
+[1.912038] (-) TimerEvent: {}
+[2.012744] (-) TimerEvent: {}
+[2.113486] (-) TimerEvent: {}
+[2.214212] (-) TimerEvent: {}
+[2.315126] (-) TimerEvent: {}
+[2.416510] (-) TimerEvent: {}
+[2.517498] (-) TimerEvent: {}
+[2.618238] (-) TimerEvent: {}
+[2.718934] (-) TimerEvent: {}
+[2.819656] (-) TimerEvent: {}
+[2.920359] (-) TimerEvent: {}
+[3.021128] (-) TimerEvent: {}
+[3.121934] (-) TimerEvent: {}
+[3.222748] (-) TimerEvent: {}
+[3.323547] (-) TimerEvent: {}
+[3.424447] (-) TimerEvent: {}
+[3.525310] (-) TimerEvent: {}
+[3.626020] (-) TimerEvent: {}
+[3.726845] (-) TimerEvent: {}
+[3.827561] (-) TimerEvent: {}
+[3.928289] (-) TimerEvent: {}
+[4.029117] (-) TimerEvent: {}
+[4.129866] (-) TimerEvent: {}
+[4.230784] (-) TimerEvent: {}
+[4.331658] (-) TimerEvent: {}
+[4.432574] (-) TimerEvent: {}
+[4.533299] (-) TimerEvent: {}
+[4.634116] (-) TimerEvent: {}
+[4.734882] (-) TimerEvent: {}
+[4.835744] (-) TimerEvent: {}
+[4.936613] (-) TimerEvent: {}
+[5.037492] (-) TimerEvent: {}
+[5.138356] (-) TimerEvent: {}
+[5.239249] (-) TimerEvent: {}
+[5.340083] (-) TimerEvent: {}
+[5.440922] (-) TimerEvent: {}
+[5.541755] (-) TimerEvent: {}
+[5.642587] (-) TimerEvent: {}
+[5.743445] (-) TimerEvent: {}
+[5.844303] (-) TimerEvent: {}
+[5.945477] (-) TimerEvent: {}
+[6.046356] (-) TimerEvent: {}
+[6.147223] (-) TimerEvent: {}
+[6.248165] (-) TimerEvent: {}
+[6.349075] (-) TimerEvent: {}
+[6.450140] (-) TimerEvent: {}
+[6.550864] (-) TimerEvent: {}
+[6.651571] (-) TimerEvent: {}
+[6.752607] (-) TimerEvent: {}
+[6.853672] (-) TimerEvent: {}
+[6.955297] (-) TimerEvent: {}
+[7.056275] (-) TimerEvent: {}
+[7.157472] (-) TimerEvent: {}
+[7.258181] (-) TimerEvent: {}
+[7.358915] (-) TimerEvent: {}
+[7.459636] (-) TimerEvent: {}
+[7.560336] (-) TimerEvent: {}
+[7.661076] (-) TimerEvent: {}
+[7.761775] (-) TimerEvent: {}
+[7.862482] (-) TimerEvent: {}
+[7.963217] (-) TimerEvent: {}
+[8.063935] (-) TimerEvent: {}
+[8.164954] (-) TimerEvent: {}
+[8.266590] (-) TimerEvent: {}
+[8.367374] (-) TimerEvent: {}
+[8.468171] (-) TimerEvent: {}
+[8.568879] (-) TimerEvent: {}
+[8.669701] (-) TimerEvent: {}
+[8.770555] (-) TimerEvent: {}
+[8.871382] (-) TimerEvent: {}
+[8.972213] (-) TimerEvent: {}
+[9.072976] (-) TimerEvent: {}
+[9.173839] (-) TimerEvent: {}
+[9.274608] (-) TimerEvent: {}
+[9.375307] (-) TimerEvent: {}
+[9.475993] (-) TimerEvent: {}
+[9.576774] (-) TimerEvent: {}
+[9.677632] (-) TimerEvent: {}
+[9.778364] (-) TimerEvent: {}
+[9.879263] (-) TimerEvent: {}
+[9.980072] (-) TimerEvent: {}
+[10.080763] (-) TimerEvent: {}
+[10.181635] (-) TimerEvent: {}
+[10.282366] (-) TimerEvent: {}
+[10.383086] (-) TimerEvent: {}
+[10.483815] (-) TimerEvent: {}
+[10.584519] (-) TimerEvent: {}
+[10.685259] (-) TimerEvent: {}
+[10.785976] (-) TimerEvent: {}
+[10.886677] (-) TimerEvent: {}
+[10.987397] (-) TimerEvent: {}
+[11.088135] (-) TimerEvent: {}
+[11.188839] (-) TimerEvent: {}
+[11.289542] (-) TimerEvent: {}
+[11.390244] (-) TimerEvent: {}
+[11.491030] (-) TimerEvent: {}
+[11.591747] (-) TimerEvent: {}
+[11.692465] (-) TimerEvent: {}
+[11.793191] (-) TimerEvent: {}
+[11.893931] (-) TimerEvent: {}
+[11.994802] (-) TimerEvent: {}
+[12.095622] (-) TimerEvent: {}
+[12.196396] (-) TimerEvent: {}
+[12.297191] (-) TimerEvent: {}
+[12.398016] (-) TimerEvent: {}
+[12.498858] (-) TimerEvent: {}
+[12.599647] (-) TimerEvent: {}
+[12.700472] (-) TimerEvent: {}
+[12.801292] (-) TimerEvent: {}
+[12.902137] (-) TimerEvent: {}
+[13.002972] (-) TimerEvent: {}
+[13.103741] (-) TimerEvent: {}
+[13.204671] (-) TimerEvent: {}
+[13.305705] (-) TimerEvent: {}
+[13.406541] (-) TimerEvent: {}
+[13.507365] (-) TimerEvent: {}
+[13.608160] (-) TimerEvent: {}
+[13.708974] (-) TimerEvent: {}
+[13.809791] (-) TimerEvent: {}
+[13.910591] (-) TimerEvent: {}
+[14.011446] (-) TimerEvent: {}
+[14.112262] (-) TimerEvent: {}
+[14.213065] (-) TimerEvent: {}
+[14.313876] (-) TimerEvent: {}
+[14.414748] (-) TimerEvent: {}
+[14.515557] (-) TimerEvent: {}
+[14.616370] (-) TimerEvent: {}
+[14.717212] (-) TimerEvent: {}
+[14.818076] (-) TimerEvent: {}
+[14.918884] (-) TimerEvent: {}
+[15.019566] (-) TimerEvent: {}
+[15.120223] (-) TimerEvent: {}
+[15.220871] (-) TimerEvent: {}
+[15.321545] (-) TimerEvent: {}
+[15.422192] (-) TimerEvent: {}
+[15.522846] (-) TimerEvent: {}
+[15.623476] (-) TimerEvent: {}
+[15.724119] (-) TimerEvent: {}
+[15.824772] (-) TimerEvent: {}
+[15.925421] (-) TimerEvent: {}
+[16.026062] (-) TimerEvent: {}
+[16.126761] (-) TimerEvent: {}
+[16.227416] (-) TimerEvent: {}
+[16.328081] (-) TimerEvent: {}
+[16.428709] (-) TimerEvent: {}
+[16.529339] (-) TimerEvent: {}
+[16.630009] (-) TimerEvent: {}
+[16.730934] (-) TimerEvent: {}
+[16.831628] (-) TimerEvent: {}
+[16.932282] (-) TimerEvent: {}
+[17.032919] (-) TimerEvent: {}
+[17.133553] (-) TimerEvent: {}
+[17.234193] (-) TimerEvent: {}
+[17.334845] (-) TimerEvent: {}
+[17.435494] (-) TimerEvent: {}
+[17.535934] (-) TimerEvent: {}
+[17.636409] (-) TimerEvent: {}
+[17.737056] (-) TimerEvent: {}
+[17.837775] (-) TimerEvent: {}
+[17.938439] (-) TimerEvent: {}
+[18.039163] (-) TimerEvent: {}
+[18.139937] (-) TimerEvent: {}
+[18.240669] (-) TimerEvent: {}
+[18.341324] (-) TimerEvent: {}
+[18.441941] (-) TimerEvent: {}
+[18.542556] (-) TimerEvent: {}
+[18.643222] (-) TimerEvent: {}
+[18.743974] (-) TimerEvent: {}
+[18.844720] (-) TimerEvent: {}
+[18.864853] (hand_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hand_control_node\x1b[0m\n'}
+[18.944845] (-) TimerEvent: {}
+[19.045604] (-) TimerEvent: {}
+[19.146510] (-) TimerEvent: {}
+[19.247411] (-) TimerEvent: {}
+[19.348291] (-) TimerEvent: {}
+[19.449140] (-) TimerEvent: {}
+[19.549990] (-) TimerEvent: {}
+[19.650855] (-) TimerEvent: {}
+[19.676688] (hand_control) StdoutLine: {'line': b'[100%] Built target hand_control_node\n'}
+[19.709949] (hand_control) CommandEnded: {'returncode': 0}
+[19.712452] (hand_control) JobProgress: {'identifier': 'hand_control', 'progress': 'install'}
+[19.733785] (hand_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ti5robot/hand_control_ws/build/hand_control'], 'cwd': '/home/ti5robot/hand_control_ws/build/hand_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ti5robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ti5robot'), ('OLDPWD', '/home/ti5robot/hand_control_ws/src/hand_control/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ti5robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ti5robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/ti5robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1576,unix/ubuntu:/tmp/.ICE-unix/1576'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb2f9530_8194_425a_ad66_6f27b9318e56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install/hand_control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ti5robot/hand_control_ws/build/hand_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ti5robot/hand_control_ws/install/hand_control:/opt/ros/humble')]), 'shell': False}
+[19.751068] (-) TimerEvent: {}
+[19.752092] (hand_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.753044] (hand_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.753749] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/lib/hand_control/hand_control_node\n'}
+[19.754100] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/lib/hand_control/hand_control_node2\n'}
+[19.754438] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/lib/hand_control/keyboard_publisher\n'}
+[19.754903] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/ament_index/resource_index/package_run_dependencies/hand_control\n'}
+[19.755290] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/ament_index/resource_index/parent_prefix_path/hand_control\n'}
+[19.755611] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/environment/ament_prefix_path.sh\n'}
+[19.755926] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/environment/ament_prefix_path.dsv\n'}
+[19.756247] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/environment/path.sh\n'}
+[19.756545] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/environment/path.dsv\n'}
+[19.756839] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/local_setup.bash\n'}
+[19.757141] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/local_setup.sh\n'}
+[19.757438] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/local_setup.zsh\n'}
+[19.757769] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/local_setup.dsv\n'}
+[19.757915] (hand_control) StdoutLine: {'line': b'-- Symlinking: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/package.dsv\n'}
+[19.776985] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/ament_index/resource_index/packages/hand_control\n'}
+[19.777775] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.778165] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/cmake/hand_controlConfig.cmake\n'}
+[19.778504] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/cmake/hand_controlConfig-version.cmake\n'}
+[19.778821] (hand_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ti5robot/hand_control_ws/install/hand_control/share/hand_control/package.xml\n'}
+[19.784819] (hand_control) CommandEnded: {'returncode': 0}
+[19.835538] (hand_control) JobEnded: {'identifier': 'hand_control', 'rc': 0}
+[19.838020] (-) EventReactorShutdown: {}

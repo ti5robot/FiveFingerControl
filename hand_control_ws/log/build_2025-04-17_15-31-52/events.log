@@ -1,0 +1,279 @@
+[0.000000] (-) TimerEvent: {}
+[0.000676] (hand_control) JobQueued: {'identifier': 'hand_control', 'dependencies': OrderedDict()}
+[0.001194] (hand_control) JobStarted: {'identifier': 'hand_control'}
+[0.021142] (hand_control) JobProgress: {'identifier': 'hand_control', 'progress': 'cmake'}
+[0.023407] (hand_control) Command: {'cmd': ['/usr/bin/cmake', '/home/ti5robot/hand_control_ws/src/hand_control', '-DCMAKE_INSTALL_PREFIX=/home/ti5robot/hand_control_ws/install/hand_control'], 'cwd': '/home/ti5robot/hand_control_ws/build/hand_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ti5robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ti5robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ti5robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ti5robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/ti5robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1576,unix/ubuntu:/tmp/.ICE-unix/1576'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb2f9530_8194_425a_ad66_6f27b9318e56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ti5robot/hand_control_ws/build/hand_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.076795] (hand_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098987] (-) TimerEvent: {}
+[0.199643] (-) TimerEvent: {}
+[0.300455] (-) TimerEvent: {}
+[0.350820] (hand_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.381817] (hand_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400690] (-) TimerEvent: {}
+[0.461363] (hand_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.466327] (hand_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.478891] (hand_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.497138] (hand_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500732] (-) TimerEvent: {}
+[0.521804] (hand_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.584402] (hand_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.586797] (hand_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600898] (-) TimerEvent: {}
+[0.701574] (-) TimerEvent: {}
+[0.776298] (hand_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801797] (-) TimerEvent: {}
+[0.902463] (-) TimerEvent: {}
+[1.003139] (-) TimerEvent: {}
+[1.028664] (hand_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.065182] (hand_control) StdoutLine: {'line': b'-- Generating done\n'}
+[1.077673] (hand_control) StdoutLine: {'line': b'-- Build files have been written to: /home/ti5robot/hand_control_ws/build/hand_control\n'}
+[1.103378] (-) TimerEvent: {}
+[1.104481] (hand_control) CommandEnded: {'returncode': 0}
+[1.106249] (hand_control) JobProgress: {'identifier': 'hand_control', 'progress': 'build'}
+[1.108557] (hand_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ti5robot/hand_control_ws/build/hand_control', '--', '-j6', '-l6'], 'cwd': '/home/ti5robot/hand_control_ws/build/hand_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'ti5robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/ti5robot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ti5robot'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ti5robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/ti5robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1576,unix/ubuntu:/tmp/.ICE-unix/1576'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb2f9530_8194_425a_ad66_6f27b9318e56'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ti5robot/hand_control_ws/build/hand_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1cece41e93d6ec05dc1f1bb267ff1a92'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.199235] (hand_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target keyboard_publisher\x1b[0m\n'}
+[1.199990] (hand_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hand_control_node\x1b[0m\n'}
+[1.203494] (-) TimerEvent: {}
+[1.248299] (hand_control) StdoutLine: {'line': b'[ 50%] Built target keyboard_publisher\n'}
+[1.251176] (hand_control) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/hand_control_node.dir/src/hand_control_node.cpp.o\x1b[0m\n'}
+[1.303696] (-) TimerEvent: {}
+[1.404377] (-) TimerEvent: {}
+[1.505048] (-) TimerEvent: {}
+[1.605754] (-) TimerEvent: {}
+[1.706426] (-) TimerEvent: {}
+[1.807155] (-) TimerEvent: {}
+[1.908021] (-) TimerEvent: {}
+[2.009136] (-) TimerEvent: {}
+[2.109922] (-) TimerEvent: {}
+[2.210707] (-) TimerEvent: {}
+[2.311479] (-) TimerEvent: {}
+[2.412347] (-) TimerEvent: {}
+[2.513517] (-) TimerEvent: {}
+[2.614387] (-) TimerEvent: {}
+[2.715436] (-) TimerEvent: {}
+[2.816318] (-) TimerEvent: {}
+[2.917140] (-) TimerEvent: {}
+[3.018004] (-) TimerEvent: {}
+[3.118891] (-) TimerEvent: {}
+[3.219772] (-) TimerEvent: {}
+[3.320640] (-) TimerEvent: {}
+[3.421540] (-) TimerEvent: {}
+[3.522373] (-) TimerEvent: {}
+[3.623216] (-) TimerEvent: {}
+[3.724072] (-) TimerEvent: {}
+[3.824859] (-) TimerEvent: {}
+[3.925723] (-) TimerEvent: {}
+[4.026524] (-) TimerEvent: {}
+[4.127291] (-) TimerEvent: {}
+[4.228136] (-) TimerEvent: {}
+[4.328987] (-) TimerEvent: {}
+[4.429908] (-) TimerEvent: {}
+[4.530780] (-) TimerEvent: {}
+[4.631536] (-) TimerEvent: {}
+[4.732377] (-) TimerEvent: {}
+[4.833116] (-) TimerEvent: {}
+[4.934064] (-) TimerEvent: {}
+[5.034753] (-) TimerEvent: {}
+[5.135487] (-) TimerEvent: {}
+[5.236386] (-) TimerEvent: {}
+[5.337141] (-) TimerEvent: {}
+[5.437986] (-) TimerEvent: {}
+[5.538693] (-) TimerEvent: {}
+[5.639389] (-) TimerEvent: {}
+[5.740121] (-) TimerEvent: {}
+[5.840960] (-) TimerEvent: {}
+[5.941803] (-) TimerEvent: {}
+[6.042606] (-) TimerEvent: {}
+[6.143357] (-) TimerEvent: {}
+[6.244165] (-) TimerEvent: {}
+[6.344879] (-) TimerEvent: {}
+[6.445598] (-) TimerEvent: {}
+[6.547782] (-) TimerEvent: {}
+[6.648633] (-) TimerEvent: {}
+[6.668332] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:67:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KB115200\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.669020] (hand_control) StderrLine: {'line': b'   67 | oller(const std::string &port = "/dev/ttyUSB0", int baudrate = \x1b[01;31m\x1b[KB115200\x1b[m\x1b[K)\n'}
+[6.669363] (hand_control) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.669665] (hand_control) StderrLine: {'line': b'\n'}
+[6.681983] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool RS485Controller::setup_serial(const string&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.682460] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KO_RDWR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.682622] (hand_control) StderrLine: {'line': b'   16 |         serial_port = open(port.c_str(), \x1b[01;31m\x1b[KO_RDWR\x1b[m\x1b[K | O_NOCTTY);\n'}
+[6.682762] (hand_control) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.694347] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KO_NOCTTY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KENOTTY\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.694715] (hand_control) StderrLine: {'line': b'   16 |         serial_port = open(port.c_str(), O_RDWR | \x1b[01;31m\x1b[KO_NOCTTY\x1b[m\x1b[K);\n'}
+[6.694987] (hand_control) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.695236] (hand_control) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[KENOTTY\x1b[m\x1b[K\n'}
+[6.703668] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kopen\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpopen\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.704031] (hand_control) StderrLine: {'line': b'   16 |         serial_port = \x1b[01;31m\x1b[Kopen\x1b[m\x1b[K(port.c_str(), O_RDWR | O_NOCTTY);\n'}
+[6.704278] (hand_control) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.704549] (hand_control) StderrLine: {'line': b'      |                       \x1b[32m\x1b[Kpopen\x1b[m\x1b[K\n'}
+[6.705437] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:23:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kaggregate \xe2\x80\x98\x1b[01m\x1b[KRS485Controller::setup_serial(const string&, int)::termios tty\x1b[m\x1b[K\xe2\x80\x99 has incomplete type and cannot be defined\n'}
+[6.705882] (hand_control) StderrLine: {'line': b'   23 |         struct termios \x1b[01;31m\x1b[Ktty\x1b[m\x1b[K;\n'}
+[6.706182] (hand_control) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.717798] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:26:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktcgetattr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.718270] (hand_control) StderrLine: {'line': b'   26 |         if (\x1b[01;31m\x1b[Ktcgetattr\x1b[m\x1b[K(serial_port, &tty) != 0)\n'}
+[6.718578] (hand_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.732269] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:33:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcfsetospeed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.732640] (hand_control) StderrLine: {'line': b'   33 |         \x1b[01;31m\x1b[Kcfsetospeed\x1b[m\x1b[K(&tty, baudrate);\n'}
+[6.732939] (hand_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.745413] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:34:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcfsetispeed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.746197] (hand_control) StderrLine: {'line': b'   34 |         \x1b[01;31m\x1b[Kcfsetispeed\x1b[m\x1b[K(&tty, baudrate);\n'}
+[6.746520] (hand_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.748690] (-) TimerEvent: {}
+[6.756583] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:37:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPARENB\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.756968] (hand_control) StderrLine: {'line': b'   37 |         tty.c_cflag &= ~\x1b[01;31m\x1b[KPARENB\x1b[m\x1b[K;\n'}
+[6.757240] (hand_control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.767699] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:38:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCSTOPB\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.768097] (hand_control) StderrLine: {'line': b'   38 |         tty.c_cflag &= ~\x1b[01;31m\x1b[KCSTOPB\x1b[m\x1b[K;\n'}
+[6.768367] (hand_control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.778197] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:39:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCSIZE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.778588] (hand_control) StderrLine: {'line': b'   39 |         tty.c_cflag &= ~\x1b[01;31m\x1b[KCSIZE\x1b[m\x1b[K;\n'}
+[6.778739] (hand_control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.788034] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:40:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCS8\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.788431] (hand_control) StderrLine: {'line': b'   40 |         tty.c_cflag |= \x1b[01;31m\x1b[KCS8\x1b[m\x1b[K;\n'}
+[6.788692] (hand_control) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.799374] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:41:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCRTSCTS\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.799747] (hand_control) StderrLine: {'line': b'   41 |         tty.c_cflag &= ~\x1b[01;31m\x1b[KCRTSCTS\x1b[m\x1b[K;       // \xe7\xa6\x81\xe7\x94\xa8\xe7\xa1\xac\xe4\xbb\xb6\xe6\xb5\x81\xe6\x8e\xa7\n'}
+[6.800011] (hand_control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.809574] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:42:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCREAD\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.809925] (hand_control) StderrLine: {'line': b'   42 |         tty.c_cflag |= \x1b[01;31m\x1b[KCREAD\x1b[m\x1b[K | CLOCAL; // \xe5\x90\xaf\xe7\x94\xa8\xe6\x8e\xa5\xe6\x94\xb6\xef\xbc\x8c\xe5\xbf\xbd\xe7\x95\xa5\xe8\xb0\x83\xe5\x88\xb6\xe8\xa7\xa3\xe8\xb0\x83\xe5\x99\xa8\xe6\x8e\xa7\xe5\x88\xb6\xe7\xba\xbf\n'}
+[6.810187] (hand_control) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.820346] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:42:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCLOCAL\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KRCL_LOCAL\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.820698] (hand_control) StderrLine: {'line': b'   42 |         tty.c_cflag |= CREAD | \x1b[01;31m\x1b[KCLOCAL\x1b[m\x1b[K; // \xe5\x90\xaf\xe7\x94\xa8\xe6\x8e\xa5\xe6\x94\xb6\xef\xbc\x8c\xe5\xbf\xbd\xe7\x95\xa5\xe8\xb0\x83\xe5\x88\xb6\xe8\xa7\xa3\xe8\xb0\x83\xe5\x99\xa8\xe6\x8e\xa7\xe5\x88\xb6\xe7\xba\xbf\n'}
+[6.820955] (hand_control) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.821199] (hand_control) StderrLine: {'line': b'      |                                \x1b[32m\x1b[KRCL_LOCAL\x1b[m\x1b[K\n'}
+[6.831143] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KICANON\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.831487] (hand_control) StderrLine: {'line': b'   45 |         tty.c_lflag &= ~(\x1b[01;31m\x1b[KICANON\x1b[m\x1b[K | ECHO | ECHOE | ISIG);\n'}
+[6.831785] (hand_control) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.841122] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KECHO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.841532] (hand_control) StderrLine: {'line': b'   45 |         tty.c_lflag &= ~(ICANON | \x1b[01;31m\x1b[KECHO\x1b[m\x1b[K | ECHOE | ISIG);\n'}
+[6.841836] (hand_control) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.848817] (-) TimerEvent: {}
+[6.851520] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KECHOE\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.851863] (hand_control) StderrLine: {'line': b'   45 |         tty.c_lflag &= ~(ICANON | ECHO | \x1b[01;31m\x1b[KECHOE\x1b[m\x1b[K | ISIG);\n'}
+[6.852123] (hand_control) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.861394] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KISIG\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KNSIG\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.861752] (hand_control) StderrLine: {'line': b'   45 |         tty.c_lflag &= ~(ICANON | ECHO | ECHOE | \x1b[01;31m\x1b[KISIG\x1b[m\x1b[K);\n'}
+[6.861916] (hand_control) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.862061] (hand_control) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[KNSIG\x1b[m\x1b[K\n'}
+[6.871587] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIXON\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.871957] (hand_control) StderrLine: {'line': b'   46 |         tty.c_iflag &= ~(\x1b[01;31m\x1b[KIXON\x1b[m\x1b[K | IXOFF | IXANY); // \xe7\xa6\x81\xe7\x94\xa8\xe8\xbd\xaf\xe4\xbb\xb6\xe6\xb5\x81\xe6\x8e\xa7\n'}
+[6.872226] (hand_control) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.882224] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIXOFF\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.882582] (hand_control) StderrLine: {'line': b'   46 |         tty.c_iflag &= ~(IXON | \x1b[01;31m\x1b[KIXOFF\x1b[m\x1b[K | IXANY); // \xe7\xa6\x81\xe7\x94\xa8\xe8\xbd\xaf\xe4\xbb\xb6\xe6\xb5\x81\xe6\x8e\xa7\n'}
+[6.882748] (hand_control) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.892973] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIXANY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.893354] (hand_control) StderrLine: {'line': b'   46 |         tty.c_iflag &= ~(IXON | IXOFF | \x1b[01;31m\x1b[KIXANY\x1b[m\x1b[K); // \xe7\xa6\x81\xe7\x94\xa8\xe8\xbd\xaf\xe4\xbb\xb6\xe6\xb5\x81\xe6\x8e\xa7\n'}
+[6.893643] (hand_control) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.903941] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIGNBRK\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.904293] (hand_control) StderrLine: {'line': b'   47 |         tty.c_iflag &= ~(\x1b[01;31m\x1b[KIGNBRK\x1b[m\x1b[K | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL);\n'}
+[6.904555] (hand_control) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.914780] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KBRKINT\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.915195] (hand_control) StderrLine: {'line': b'   47 |         tty.c_iflag &= ~(IGNBRK | \x1b[01;31m\x1b[KBRKINT\x1b[m\x1b[K | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL);\n'}
+[6.915457] (hand_control) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.926058] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPARMRK\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.926424] (hand_control) StderrLine: {'line': b'   47 |         tty.c_iflag &= ~(IGNBRK | BRKINT | \x1b[01;31m\x1b[KPARMRK\x1b[m\x1b[K | ISTRIP | INLCR | IGNCR | ICRNL);\n'}
+[6.926693] (hand_control) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.937569] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KISTRIP\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KESTRPIPE\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.937871] (hand_control) StderrLine: {'line': b'   47 |         tty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | \x1b[01;31m\x1b[KISTRIP\x1b[m\x1b[K | INLCR | IGNCR | ICRNL);\n'}
+[6.938118] (hand_control) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.938356] (hand_control) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[KESTRPIPE\x1b[m\x1b[K\n'}
+[6.948301] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KINLCR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.948622] (hand_control) StderrLine: {'line': b'   47 |        tty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | \x1b[01;31m\x1b[KINLCR\x1b[m\x1b[K | IGNCR | ICRNL);\n'}
+[6.948861] (-) TimerEvent: {}
+[6.949215] (hand_control) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.949555] (hand_control) StderrLine: {'line': b'\n'}
+[6.958833] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KIGNCR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.959121] (hand_control) StderrLine: {'line': b'   47 | ty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | \x1b[01;31m\x1b[KIGNCR\x1b[m\x1b[K | ICRNL);\n'}
+[6.959366] (hand_control) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.959602] (hand_control) StderrLine: {'line': b'\n'}
+[6.969345] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KICRNL\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.969630] (hand_control) StderrLine: {'line': b'   47 | _iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | \x1b[01;31m\x1b[KICRNL\x1b[m\x1b[K);\n'}
+[6.969871] (hand_control) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.970105] (hand_control) StderrLine: {'line': b'\n'}
+[6.979786] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:50:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KOPOST\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.980394] (hand_control) StderrLine: {'line': b'   50 |         tty.c_oflag &= ~\x1b[01;31m\x1b[KOPOST\x1b[m\x1b[K;\n'}
+[6.980702] (hand_control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.990306] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:51:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KONLCR\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.990695] (hand_control) StderrLine: {'line': b'   51 |         tty.c_oflag &= ~\x1b[01;31m\x1b[KONLCR\x1b[m\x1b[K;\n'}
+[6.990971] (hand_control) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.000088] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:54:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVMIN\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.000454] (hand_control) StderrLine: {'line': b'   54 |         tty.c_cc[\x1b[01;31m\x1b[KVMIN\x1b[m\x1b[K] = 0;\n'}
+[7.000720] (hand_control) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.010345] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:55:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVTIME\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KETIME\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.010698] (hand_control) StderrLine: {'line': b'   55 |         tty.c_cc[\x1b[01;31m\x1b[KVTIME\x1b[m\x1b[K] = 10; // 1\xe7\xa7\x92\xe8\xb6\x85\xe6\x97\xb6\n'}
+[7.010961] (hand_control) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.011208] (hand_control) StderrLine: {'line': b'      |                  \x1b[32m\x1b[KETIME\x1b[m\x1b[K\n'}
+[7.021472] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:57:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTCSANOW\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.021810] (hand_control) StderrLine: {'line': b'   57 |         if (tcsetattr(serial_port, \x1b[01;31m\x1b[KTCSANOW\x1b[m\x1b[K, &tty) != 0)\n'}
+[7.022062] (hand_control) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.032760] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:57:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktcsetattr\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.033111] (hand_control) StderrLine: {'line': b'   57 |         if (\x1b[01;31m\x1b[Ktcsetattr\x1b[m\x1b[K(serial_port, TCSANOW, &tty) != 0)\n'}
+[7.033388] (hand_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.048985] (-) TimerEvent: {}
+[7.052633] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool RS485Controller::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, std::vector<unsigned char, std::allocator<unsigned char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.053070] (hand_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:117:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktcdrain\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.053365] (hand_control) StderrLine: {'line': b'  117 |         \x1b[01;31m\x1b[Ktcdrain\x1b[m\x1b[K(serial_port);\n'}
+[7.053647] (hand_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.149209] (-) TimerEvent: {}
+[7.250059] (-) TimerEvent: {}
+[7.350874] (-) TimerEvent: {}
+[7.451703] (-) TimerEvent: {}
+[7.552535] (-) TimerEvent: {}
+[7.653390] (-) TimerEvent: {}
+[7.754217] (-) TimerEvent: {}
+[7.855049] (-) TimerEvent: {}
+[7.955890] (-) TimerEvent: {}
+[8.056719] (-) TimerEvent: {}
+[8.157681] (-) TimerEvent: {}
+[8.258528] (-) TimerEvent: {}
+[8.359376] (-) TimerEvent: {}
+[8.460219] (-) TimerEvent: {}
+[8.561078] (-) TimerEvent: {}
+[8.661941] (-) TimerEvent: {}
+[8.762786] (-) TimerEvent: {}
+[8.863629] (-) TimerEvent: {}
+[8.964464] (-) TimerEvent: {}
+[9.065293] (-) TimerEvent: {}
+[9.166167] (-) TimerEvent: {}
+[9.267037] (-) TimerEvent: {}
+[9.367900] (-) TimerEvent: {}
+[9.468737] (-) TimerEvent: {}
+[9.569500] (-) TimerEvent: {}
+[9.670266] (-) TimerEvent: {}
+[9.771121] (-) TimerEvent: {}
+[9.871936] (-) TimerEvent: {}
+[9.972774] (-) TimerEvent: {}
+[10.073600] (-) TimerEvent: {}
+[10.174329] (-) TimerEvent: {}
+[10.275150] (-) TimerEvent: {}
+[10.375998] (-) TimerEvent: {}
+[10.476835] (-) TimerEvent: {}
+[10.577666] (-) TimerEvent: {}
+[10.678471] (-) TimerEvent: {}
+[10.779311] (-) TimerEvent: {}
+[10.880146] (-) TimerEvent: {}
+[10.980977] (-) TimerEvent: {}
+[11.081843] (-) TimerEvent: {}
+[11.182705] (-) TimerEvent: {}
+[11.283553] (-) TimerEvent: {}
+[11.384385] (-) TimerEvent: {}
+[11.485214] (-) TimerEvent: {}
+[11.586060] (-) TimerEvent: {}
+[11.686923] (-) TimerEvent: {}
+[11.787758] (-) TimerEvent: {}
+[11.888589] (-) TimerEvent: {}
+[11.989443] (-) TimerEvent: {}
+[12.090286] (-) TimerEvent: {}
+[12.191118] (-) TimerEvent: {}
+[12.291921] (-) TimerEvent: {}
+[12.392658] (-) TimerEvent: {}
+[12.493532] (-) TimerEvent: {}
+[12.594388] (-) TimerEvent: {}
+[12.695219] (-) TimerEvent: {}
+[12.786304] (hand_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hand_control_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/hand_control_node.dir/src/hand_control_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[12.787211] (hand_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/hand_control_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[12.787618] (hand_control) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[12.794110] (hand_control) CommandEnded: {'returncode': 2}
+[12.796093] (-) TimerEvent: {}
+[12.840782] (hand_control) JobEnded: {'identifier': 'hand_control', 'rc': 2}
+[12.852025] (-) EventReactorShutdown: {}

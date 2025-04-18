@@ -1,0 +1,16 @@
+[0.030s] Invoking command in '/home/ti5robot/hand_control_ws/build/hand_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ti5robot/hand_control_ws/build/hand_control -- -j6 -l6
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/hand_control_node2.dir/src/hand_control_node2.cpp.o[0m
+[0.189s] [ 83%] Built target keyboard_publisher
+[0.189s] [ 83%] Built target hand_control_node
+[5.637s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:[m[K In member function ‘[01m[Kbool RS485Controller::tempature()[m[K’:
+[5.638s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:115:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.638s]   115 |                 [01;31m[Kreturn[m[K;
+[5.638s]       |                 [01;31m[K^~~~~~[m[K
+[5.638s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:[m[K In member function ‘[01m[Kbool RS485Controller::postion()[m[K’:
+[5.638s] [01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node2.cpp:147:17:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kbool[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[5.639s]   147 |                 [01;31m[Kreturn[m[K;
+[5.639s]       |                 [01;31m[K^~~~~~[m[K
+[11.345s] gmake[2]: *** [CMakeFiles/hand_control_node2.dir/build.make:76：CMakeFiles/hand_control_node2.dir/src/hand_control_node2.cpp.o] 错误 1
+[11.345s] gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/hand_control_node2.dir/all] 错误 2
+[11.346s] gmake: *** [Makefile:146：all] 错误 2
+[11.354s] Invoked command in '/home/ti5robot/hand_control_ws/build/hand_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ti5robot/hand_control_ws/build/hand_control -- -j6 -l6

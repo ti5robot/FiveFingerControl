@@ -1,0 +1,123 @@
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:67:78:[m[K [01;31m[Kerror: [m[K‘[01m[KB115200[m[K’ was not declared in this scope
+   67 | oller(const std::string &port = "/dev/ttyUSB0", int baudrate = [01;31m[KB115200[m[K)
+      |                                                                [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:[m[K In member function ‘[01m[Kbool RS485Controller::setup_serial(const string&, int)[m[K’:
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:42:[m[K [01;31m[Kerror: [m[K‘[01m[KO_RDWR[m[K’ was not declared in this scope
+   16 |         serial_port = open(port.c_str(), [01;31m[KO_RDWR[m[K | O_NOCTTY);
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:51:[m[K [01;31m[Kerror: [m[K‘[01m[KO_NOCTTY[m[K’ was not declared in this scope; did you mean ‘[01m[KENOTTY[m[K’?
+   16 |         serial_port = open(port.c_str(), O_RDWR | [01;31m[KO_NOCTTY[m[K);
+      |                                                   [01;31m[K^~~~~~~~[m[K
+      |                                                   [32m[KENOTTY[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:16:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kopen[m[K’ was not declared in this scope; did you mean ‘[01m[Kpopen[m[K’?
+   16 |         serial_port = [01;31m[Kopen[m[K(port.c_str(), O_RDWR | O_NOCTTY);
+      |                       [01;31m[K^~~~[m[K
+      |                       [32m[Kpopen[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:23:24:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KRS485Controller::setup_serial(const string&, int)::termios tty[m[K’ has incomplete type and cannot be defined
+   23 |         struct termios [01;31m[Ktty[m[K;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcgetattr[m[K’ was not declared in this scope
+   26 |         if ([01;31m[Ktcgetattr[m[K(serial_port, &tty) != 0)
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcfsetospeed[m[K’ was not declared in this scope
+   33 |         [01;31m[Kcfsetospeed[m[K(&tty, baudrate);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcfsetispeed[m[K’ was not declared in this scope
+   34 |         [01;31m[Kcfsetispeed[m[K(&tty, baudrate);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:37:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPARENB[m[K’ was not declared in this scope
+   37 |         tty.c_cflag &= ~[01;31m[KPARENB[m[K;
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:38:25:[m[K [01;31m[Kerror: [m[K‘[01m[KCSTOPB[m[K’ was not declared in this scope
+   38 |         tty.c_cflag &= ~[01;31m[KCSTOPB[m[K;
+      |                         [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:39:25:[m[K [01;31m[Kerror: [m[K‘[01m[KCSIZE[m[K’ was not declared in this scope
+   39 |         tty.c_cflag &= ~[01;31m[KCSIZE[m[K;
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:40:24:[m[K [01;31m[Kerror: [m[K‘[01m[KCS8[m[K’ was not declared in this scope
+   40 |         tty.c_cflag |= [01;31m[KCS8[m[K;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:41:25:[m[K [01;31m[Kerror: [m[K‘[01m[KCRTSCTS[m[K’ was not declared in this scope
+   41 |         tty.c_cflag &= ~[01;31m[KCRTSCTS[m[K;       // 禁用硬件流控
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:42:24:[m[K [01;31m[Kerror: [m[K‘[01m[KCREAD[m[K’ was not declared in this scope
+   42 |         tty.c_cflag |= [01;31m[KCREAD[m[K | CLOCAL; // 启用接收，忽略调制解调器控制线
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:42:32:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCAL[m[K’ was not declared in this scope; did you mean ‘[01m[KRCL_LOCAL[m[K’?
+   42 |         tty.c_cflag |= CREAD | [01;31m[KCLOCAL[m[K; // 启用接收，忽略调制解调器控制线
+      |                                [01;31m[K^~~~~~[m[K
+      |                                [32m[KRCL_LOCAL[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:26:[m[K [01;31m[Kerror: [m[K‘[01m[KICANON[m[K’ was not declared in this scope
+   45 |         tty.c_lflag &= ~([01;31m[KICANON[m[K | ECHO | ECHOE | ISIG);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:35:[m[K [01;31m[Kerror: [m[K‘[01m[KECHO[m[K’ was not declared in this scope
+   45 |         tty.c_lflag &= ~(ICANON | [01;31m[KECHO[m[K | ECHOE | ISIG);
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:42:[m[K [01;31m[Kerror: [m[K‘[01m[KECHOE[m[K’ was not declared in this scope
+   45 |         tty.c_lflag &= ~(ICANON | ECHO | [01;31m[KECHOE[m[K | ISIG);
+      |                                          [01;31m[K^~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:45:50:[m[K [01;31m[Kerror: [m[K‘[01m[KISIG[m[K’ was not declared in this scope; did you mean ‘[01m[KNSIG[m[K’?
+   45 |         tty.c_lflag &= ~(ICANON | ECHO | ECHOE | [01;31m[KISIG[m[K);
+      |                                                  [01;31m[K^~~~[m[K
+      |                                                  [32m[KNSIG[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:26:[m[K [01;31m[Kerror: [m[K‘[01m[KIXON[m[K’ was not declared in this scope
+   46 |         tty.c_iflag &= ~([01;31m[KIXON[m[K | IXOFF | IXANY); // 禁用软件流控
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:33:[m[K [01;31m[Kerror: [m[K‘[01m[KIXOFF[m[K’ was not declared in this scope
+   46 |         tty.c_iflag &= ~(IXON | [01;31m[KIXOFF[m[K | IXANY); // 禁用软件流控
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:46:41:[m[K [01;31m[Kerror: [m[K‘[01m[KIXANY[m[K’ was not declared in this scope
+   46 |         tty.c_iflag &= ~(IXON | IXOFF | [01;31m[KIXANY[m[K); // 禁用软件流控
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:26:[m[K [01;31m[Kerror: [m[K‘[01m[KIGNBRK[m[K’ was not declared in this scope
+   47 |         tty.c_iflag &= ~([01;31m[KIGNBRK[m[K | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL);
+      |                          [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:35:[m[K [01;31m[Kerror: [m[K‘[01m[KBRKINT[m[K’ was not declared in this scope
+   47 |         tty.c_iflag &= ~(IGNBRK | [01;31m[KBRKINT[m[K | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:44:[m[K [01;31m[Kerror: [m[K‘[01m[KPARMRK[m[K’ was not declared in this scope
+   47 |         tty.c_iflag &= ~(IGNBRK | BRKINT | [01;31m[KPARMRK[m[K | ISTRIP | INLCR | IGNCR | ICRNL);
+      |                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:53:[m[K [01;31m[Kerror: [m[K‘[01m[KISTRIP[m[K’ was not declared in this scope; did you mean ‘[01m[KESTRPIPE[m[K’?
+   47 |         tty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | [01;31m[KISTRIP[m[K | INLCR | IGNCR | ICRNL);
+      |                                                     [01;31m[K^~~~~~[m[K
+      |                                                     [32m[KESTRPIPE[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:62:[m[K [01;31m[Kerror: [m[K‘[01m[KINLCR[m[K’ was not declared in this scope
+   47 |        tty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | [01;31m[KINLCR[m[K | IGNCR | ICRNL);
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:70:[m[K [01;31m[Kerror: [m[K‘[01m[KIGNCR[m[K’ was not declared in this scope
+   47 | ty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | [01;31m[KIGNCR[m[K | ICRNL);
+      |                                                             [01;31m[K^~~~~[m[K
+
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:47:78:[m[K [01;31m[Kerror: [m[K‘[01m[KICRNL[m[K’ was not declared in this scope
+   47 | _iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | [01;31m[KICRNL[m[K);
+      |                                                                 [01;31m[K^~~~~[m[K
+
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:50:25:[m[K [01;31m[Kerror: [m[K‘[01m[KOPOST[m[K’ was not declared in this scope
+   50 |         tty.c_oflag &= ~[01;31m[KOPOST[m[K;
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:51:25:[m[K [01;31m[Kerror: [m[K‘[01m[KONLCR[m[K’ was not declared in this scope
+   51 |         tty.c_oflag &= ~[01;31m[KONLCR[m[K;
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:54:18:[m[K [01;31m[Kerror: [m[K‘[01m[KVMIN[m[K’ was not declared in this scope
+   54 |         tty.c_cc[[01;31m[KVMIN[m[K] = 0;
+      |                  [01;31m[K^~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:55:18:[m[K [01;31m[Kerror: [m[K‘[01m[KVTIME[m[K’ was not declared in this scope; did you mean ‘[01m[KETIME[m[K’?
+   55 |         tty.c_cc[[01;31m[KVTIME[m[K] = 10; // 1秒超时
+      |                  [01;31m[K^~~~~[m[K
+      |                  [32m[KETIME[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:57:36:[m[K [01;31m[Kerror: [m[K‘[01m[KTCSANOW[m[K’ was not declared in this scope
+   57 |         if (tcsetattr(serial_port, [01;31m[KTCSANOW[m[K, &tty) != 0)
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:57:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcsetattr[m[K’ was not declared in this scope
+   57 |         if ([01;31m[Ktcsetattr[m[K(serial_port, TCSANOW, &tty) != 0)
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:[m[K In member function ‘[01m[Kbool RS485Controller::send_command(const std::vector<unsigned char, std::allocator<unsigned char> >&, std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[01m[K/home/ti5robot/hand_control_ws/src/hand_control/src/hand_control_node.cpp:117:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktcdrain[m[K’ was not declared in this scope
+  117 |         [01;31m[Ktcdrain[m[K(serial_port);
+      |         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hand_control_node.dir/build.make:76：CMakeFiles/hand_control_node.dir/src/hand_control_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/hand_control_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

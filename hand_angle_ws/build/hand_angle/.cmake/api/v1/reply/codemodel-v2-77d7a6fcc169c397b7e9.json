@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0386fd367f306968b96e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hand_angle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hand_angle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hand_angle_node-8bd5794053723470569b.json",
+					"name" : "hand_angle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hand_angle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hand_angle_uninstall-b6fed36f12099539b832.json",
+					"name" : "hand_angle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ude_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ude_server-3b59e1f28e5f14b88e67.json",
+					"name" : "ude_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-43d2d329524cdfb6b9d4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ti5robot/hand_angle_ws/build/hand_angle",
+		"source" : "/home/ti5robot/hand_angle_ws/src/hand_angle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

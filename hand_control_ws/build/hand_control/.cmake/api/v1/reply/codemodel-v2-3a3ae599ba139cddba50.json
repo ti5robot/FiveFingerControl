@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0431040189850dd3e867.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hand_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hand_control_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hand_control_node-97f8d785bf35ce84b272.json",
+					"name" : "hand_control_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hand_control_node2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hand_control_node2-3b75422e5025c2fdf8e2.json",
+					"name" : "hand_control_node2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hand_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hand_control_uninstall-51d3bfd796a156718784.json",
+					"name" : "hand_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keyboard_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keyboard_publisher-ac03b5a8e8484a5a3236.json",
+					"name" : "keyboard_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-54a30c2d5a3604588984.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ti5robot/hand_control_ws/build/hand_control",
+		"source" : "/home/ti5robot/hand_control_ws/src/hand_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

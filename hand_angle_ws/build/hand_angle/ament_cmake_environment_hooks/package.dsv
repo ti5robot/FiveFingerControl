@@ -1,0 +1,4 @@
+source;share/hand_angle/local_setup.bash
+source;share/hand_angle/local_setup.dsv
+source;share/hand_angle/local_setup.sh
+source;share/hand_angle/local_setup.zsh

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target hand_control_node2[0m
+[ 33%] Built target keyboard_publisher
+[ 66%] Built target hand_control_node
+[ 83%] [32mBuilding CXX object CMakeFiles/hand_control_node2.dir/src/hand_control_node2.cpp.o[0m
